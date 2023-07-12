@@ -1,4 +1,5 @@
-import axios from 'axios';
+// import axios from 'axios';
+import axios, * as others from 'axios';
 
 export async function fetchImages(q, page, perPage) {
   const URL = 'https://pixabay.com/api/';
