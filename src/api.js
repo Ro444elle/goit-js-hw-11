@@ -1,5 +1,9 @@
-// import axios from 'axios';
-import axios, * as others from 'axios';
+import axios from 'axios';
+// import axios, * as others from 'axios';
+
+console.log('start...');
+let xx = fetchImages('dog', 1, 3);
+console.log(xx);
 
 export async function fetchImages(q, page, perPage) {
   const URL = 'https://pixabay.com/api/';
